@@ -1,0 +1,23 @@
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
+require 'rake'
+
+class Movies 
+  attr_accessor :genre, :director, :actor, :name
+  
+  @@all = []
+  
+  def intialize 
+    @@all << self
+  end
+end
+
+class Scraper
+
+  def self.scrape_info
+    doc =
+    Nokogiri::HTML(open("https://www.popcornflix.com/channels/details/new-releases"))
+  end
+  
+end
