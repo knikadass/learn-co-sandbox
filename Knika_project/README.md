@@ -1,6 +1,6 @@
 # KnikaProject
 
-This is a proj
+This is a project so to search for the database of TV Shows
 
 ## Installation
 

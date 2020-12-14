@@ -1,0 +1,3 @@
+require_relative '../lib/tv_shows.rb'
+
+TVShows::CLI.new.call

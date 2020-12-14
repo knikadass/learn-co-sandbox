@@ -1,3 +1,3 @@
-module KnikaProject
+module TVShows
   VERSION = "0.1.0"
 end
